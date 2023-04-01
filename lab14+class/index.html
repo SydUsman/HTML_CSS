@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retrieving HTML elements</title>
+</head>
+<body>
+    <script>
+        function getValue()
+        {
+            var a=document.getElementById("pic")
+            alert(a.title)
+            alert(a.height)            
+        }
+    </script>
+
+    <img src="cscomsats.png" id="pic" height="100" title="CSCOMSATS" onclick="getValue()">
+</body>
+</html>

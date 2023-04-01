@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>Javascript Starts</title>
+<link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+<button >Green</button>
+
+<script src="script.js"></script>
+</body>
+
+</html>

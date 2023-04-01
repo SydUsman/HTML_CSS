@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="signbox">
+        <img src="img.jpg" class="vector">
+        <h1>Admission Form</h1>
+        <form>
+            <p>First Name</p>
+            <input type="text" placeholder="Enter in Block Letters" required>
+            <p>Last Name</p>
+            <input type="text" placeholder="Enter in Block Letters" required>
+            <p>Father's Name</p>
+            <input type="text" placeholder="Enter Complete Name" required>
+            <p>CNIC Number</p>
+            <input type="text" pattern="[0-9]{5}[-][0-9]{7}[-]{0-9}{1}" placeholder="36502-1234567-1" required>
+            <p>Email Address</p>
+            <input type="text" placeholder="Mobile number or Email address" required>
+            <p>Password</p>
+            <input type="password"placeholder="New Password" required>            
+            <h6 color="blue">By clicking Submit, your provided data cannot be changed, false data will lead to cancellation of form.
+            You may receive SMS notifications from us at any time.</h6>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+</html>

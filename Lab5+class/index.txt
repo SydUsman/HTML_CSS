@@ -1,0 +1,57 @@
+<html>
+
+<head>
+<title>Forms</title>
+</head>
+
+<body bgcolor=lightblue>
+<center>
+<font face="Coverse Allstars" color=red><h1>Registration<h1></font>
+</center>
+<table border=1 align=center width="30%" height="40%" cellpadding="10%">
+<tr>
+<th>
+<h3></h3>
+
+                            <form action="Backend.php">
+                                <div>
+                                    Name:<input type="text" placeholder=" In capital letters">
+                                </div>
+                                <div>
+                                    Email:<input type="email" name="myName">
+                                </div>
+                                <div>
+                                    <input type="week" name="" id="">
+                                </div> 
+                                <div>
+                                    <label for="checkbox">Are you Eligible :</label> 
+                                    <input type="checkbox" name="" id="checkbox">
+                                </div>
+                                <div>
+                                    <input type="date" name="" id="">
+                                </div>
+                                <br>
+                                <div>
+                                    Gender: Male<input type="radio" name="myGender"> Female<input type="radio" name="myGender">
+                                </div>
+				
+                                <div>
+                                    <label for="car">Cars:</label>
+                                    <select name="Car:" id="car">
+                                        <option value="hda">Honda</option>
+                                        <option value="tyta">Toyota</option>
+
+                                    </select>
+                                </div>
+                                Write anything:<br><textarea name="" id="" cols="20" rows="5"></textarea>
+                                <input type="submit" value="submit">
+                                <input type="reset" value="reset">
+                            </form>
+
+</th>
+</tr>
+</table>
+
+</body>
+
+</html>

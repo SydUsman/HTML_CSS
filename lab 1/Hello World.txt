@@ -1,0 +1,36 @@
+<HTML>
+<head>
+<Title>Lab1 Program</Title>
+</head>
+<body background=image.jpg text=black>
+
+<h1 style="color:red;">Reg # FA19-BCS-106</h1>
+<h2 style="color:red;">Syed Usman Hassan</h2>
+<h3 style="color:red;">Lab-1</h3>
+
+<p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit harum, soluta consequuntur quae, quis cupiditate facilis amet sint<br>
+   molestiae voluptas in? Repudiandae a quam excepturi enim sunt tempora voluptas quos.<b></p>
+
+<b>Ali</b><br>
+<i>Usama</i><br>
+<u>Uzair</u><br><br>
+
+<font fontface="comic sans ms" size=6 color=yellow>
+<b style="background-color: red;">Welcome on Board<b>
+</font>
+
+<ul style="color:red;">
+<li>Home</li>
+<li>About</li>
+<li>Contact Us</li>
+</ul>
+
+<ol style="color:red;">
+<li>Home</li>
+<li>About</li>
+<li>Contact Us</li>
+</ol>
+
+
+</body>
+</HTML>

@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>Javascript notes2<title>
+<script>
+function alertme(message)
+{
+alert(message)
+}
+alertme("Welcome to my page")
+</script>
+</head>
+<body>
+<h1>Welcome to this website</h1>
+</body>
+</html>

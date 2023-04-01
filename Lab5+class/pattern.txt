@@ -1,0 +1,10 @@
+<html>
+<head>
+<title>pattern</title>
+</head>
+<body>
+<forms>
+PLease Enter your CNIC:<input type="text" pattern="">
+</forms>
+</body>
+</html>

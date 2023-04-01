@@ -1,0 +1,33 @@
+.area{
+    width:50%;
+    margin-left: 330px;  
+    background-color: lightblue; 
+   
+}
+#left
+{
+    margin-left: 220px;               
+}
+
+
+.area1
+{
+    width:50%;
+    margin-left: 330px;  
+    background-color: lightblue;
+    margin-top: 50px;
+    height:20vh;
+    padding:10px;
+    text-align: center;
+}
+
+.area2
+{
+    width:50%;
+    margin-left: 330px;  
+    background-color: lightblue;
+    margin-top: 50px;
+    height:20vh;
+    padding:10px;
+    text-align: center;
+}

@@ -1,0 +1,151 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  font-family: "Poppins";
+}
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Navbar */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  margin: 4em;
+  display: flex;
+  gap: 4em;
+}
+nav.ul {
+  margin: 0;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  position: relative;
+}
+nav a.active::before {
+  position: absolute;
+  content: "";
+  width: 35%;
+  height: 1px;
+  border-bottom: 2px solid black;
+  bottom: 0;
+}
+
+/* Hero Section */
+main {
+  display: flex;
+  gap: 8em;
+  margin-top: 1em;
+}
+.left-col {
+    width: 45%;
+}
+.right-col {
+  flex-grow: 1;
+}
+h1{
+    font-size: 5.2rem;
+    font-family: "Playfair Display";
+    font-weight: normal;
+    margin: 0;
+}
+.subhead{
+    font-size: 1.8rem;
+
+}
+.cta-btns{
+    display: flex;
+    gap: 2em;
+}
+.primary-cta{
+    color: black;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: bold;
+    background-color: #F1E2D1;
+    border-radius: 1.9rem;
+    padding: 0.5em 1em;
+}
+.secondary-cta{
+    color: black;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 0.5em 1em;
+
+}
+.news{
+  display: flex;
+  gap: 3em;
+  padding: 5em ;
+  align-items: center;
+  border: 1px solid black;
+  margin-top: 2em;
+  border-radius: 1em;
+}
+.employees{
+  font-size: 5em;
+  margin: 0;
+  font-family: "Playfair Display";
+  
+}
+.right-col{
+  display: grid;
+  gap: 2.3em;
+  grid-template-columns: repeat(2, auto);
+  grid-template-areas: 
+    "left right"
+    "left bottom";
+  
+}
+.card{
+  /* background-color: gray; */
+  border-radius: 0.8em;
+  padding: 1.1em;
+  display: flex;
+  align-items: flex-end;
+  background-size:150% ;
+}
+.card1{
+  grid-area: left;
+  background-image: url(./images/clothing1.jpg);
+
+}
+.card2{
+  background-image: url(./images/clothing2.jpg);
+
+}
+.card3{
+  background-image: url(./images/clothing3.jpg);
+
+}
+.card-details{
+  background-color: white;
+  padding: 1em;
+  border-radius: 0.6em;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-details a{
+  font-size: 1.6rem;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.card-details p{
+  font-size: 1.4rem;
+  margin: 0;
+
+
+}

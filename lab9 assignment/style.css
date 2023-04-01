@@ -1,0 +1,49 @@
+#P1{
+    font-family: 'Courier New', Courier, monospace;
+}
+#P2{
+    font-size: 30px;
+}
+#P3{
+    font-weight: italic;
+}
+#P4{
+    font-style: oblique;
+}
+#P5{
+    font-variant: small-caps;
+}
+#P6{
+    color: green;
+}
+#P7{
+    text-align: right;
+}
+#P8{
+    vertical-align: middle;
+}
+#P9{
+    text-decoration: underline;
+}#P10{
+    text-transform: lowercase;
+}#P11{
+    letter-spacing: 3px;
+}
+#P12{
+    word-spacing: 4px;
+}
+#P13{
+    color: green;
+}
+#P14{
+    background-color: brown;
+}
+#P15{
+    text-decoration: underline;
+}
+#P16:link{
+    color:red;
+}
+#P17:visited{
+    color:yellow;
+}
